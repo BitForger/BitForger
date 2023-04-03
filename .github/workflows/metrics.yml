@@ -1,10 +1,19 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Metrics
+permissions:
+  contents: write
 on:
   # Schedule updates
   schedule: [{cron: "0 */6 * * *"}]
   push: {branches: "master"}
 jobs:
+  dev-card:
+    runs-on: ubuntu-latest
+    steps:
+      - name: devcard
+        uses: dailydotdev/action-devcard@2.0.4
+        with:
+          devcard_id: ${{ secrets.DEVCARD_ID }}
   github-metrics:
     runs-on: ubuntu-latest
     steps:
