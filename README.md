@@ -14,4 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<a href="https://app.daily.dev/DailyDevTips"><img align="right" src="https://github.com/bitforger/bitforger/blob/master/devcard.svg" width="400" alt="Chris Bongers's Dev Card"/></a>
+
 ![github-metrics.svg](./github-metrics.svg)
