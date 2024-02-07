@@ -56,14 +56,4 @@ jobs:
           plugin_music_mode: playlist
           plugin_music_playlist: https://open.spotify.com/embed/playlist/6JV7Ui5nHq2t2dqY8LlYZK
           plugin_music_limit: 5
-      - name: Favorites anime and currently watching
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.anilist.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_anilist: yes
-          plugin_anilist_medias: anime
-          plugin_anilist_sections: favorites, watching
-          plugin_anilist_limit: 1
     
