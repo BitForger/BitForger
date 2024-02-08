@@ -1,0 +1,22 @@
+name: Metrics
+permissions:
+  contents: write
+on:
+  # Schedule updates
+  schedule: [{cron: "0 */6 * * *"}]
+  push: {branches: "master"}
+jobs:
+  anilist:
+    name: Favorites anime and currently watching
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.anilist.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites, watching
+          plugin_anilist_limit: 1
+          plugin_anilist_user: BitForger
