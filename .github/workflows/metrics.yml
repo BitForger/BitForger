@@ -4,7 +4,7 @@ permissions:
   contents: write
 on:
   # Schedule updates
-  schedule: [{cron: "0 */6 * * *"}]
+  schedule: [{cron: "0 0 * * 3"}]
   push: {branches: "master"}
 jobs:
   dev-card:
