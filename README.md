@@ -16,5 +16,7 @@ Here are some ideas to get you started:
 -->
 
 I do a bunch of things from DevSecOps to full-stack development. You can find some of the things I've been working on below.
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8G22739CC)
+
 ![github-metrics.svg](./github-metrics.svg)
